@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MProBtn = findViewById(R.id.MyProfile);
         MProBtn.setOnClickListener(this);
 
+        UtilsActivity.darkenStatusBar(this, R.color.colorPrimary);
     }
 
     @Override

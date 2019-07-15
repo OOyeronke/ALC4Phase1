@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".My_ProfileActivity">
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="182dp"
@@ -13,19 +14,23 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/oyeronke"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Track"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="54dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/condiment"
         android:text="@string/track_android"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +41,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/condiment"
         android:text="@string/country_nigeria"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintEnd_toEndOf="@+id/Track"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/Track"
@@ -47,7 +54,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/condiment"
         android:text="@string/email_ogunjinmironke_gmail_com"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintEnd_toEndOf="@+id/Country"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/Country"
@@ -58,7 +67,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/condiment"
         android:text="@string/phone_number_2347069357297"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintEnd_toEndOf="@+id/Email"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/Email"
@@ -69,7 +80,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:text="@string/slack_username_ronke"
+        android:fontFamily="@font/condiment"
+        android:text="@string/slack_username_ronke1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintEnd_toEndOf="@+id/Phone_Number"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/Phone_Number"
@@ -77,11 +90,31 @@
 
     <TextView
         android:id="@+id/Name"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
+        android:layout_width="358dp"
+        android:layout_height="42dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/condiment"
         android:text="@string/ogunjinmi_oyeronke"
+        android:textAlignment="center"
+        android:textAppearance="@style/Animation.AppCompat.Dialog"
+        android:textSize="24sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/Track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name" />
+
 </android.support.constraint.ConstraintLayout>

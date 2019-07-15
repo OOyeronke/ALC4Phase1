@@ -9,5 +9,7 @@ public class My_ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my__profile);
+
+        UtilsActivity.darkenStatusBar(this, R.color.colorPrimary);
     }
 }

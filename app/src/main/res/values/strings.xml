@@ -6,8 +6,8 @@
     <string name="track_android">Track: Android</string>
     <string name="country_nigeria">Country: Nigeria</string>
     <string name="email_ogunjinmironke_gmail_com">Email: ogunjinmironke@gmail.com</string>
-    <string name="phone_number_2347069357297">Phone Number: 2347069357297</string>
-    <string name="slack_username_oyeronke">Slack Username: Oyeronke</string>
+    <string name="phone_number_2347069357297">Phone Number: +2347069357297</string>
     <string name="ogunjinmi_oyeronke">Ogunjinmi Oyeronke</string>
-    <string name="slack_username_ronke">Slack Username: Ronke</string>
+    <string name="slack_username_ronke1">Slack Username: @Ronke</string>
+    <string name="todo">TODO</string>
 </resources>
